@@ -13,10 +13,10 @@ namespace DMS.DAL.DatabaseContext
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ProjectEntities1 : DbContext
+    public partial class ProjectEntities : DbContext
     {
-        public ProjectEntities1()
-            : base("name=ProjectEntities1")
+        public ProjectEntities()
+            : base("name=ProjectEntities")
         {
         }
     
